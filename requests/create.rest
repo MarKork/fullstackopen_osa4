@@ -1,0 +1,7 @@
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InTDpG3DpHVzZXIiLCJpZCI6IjVkZjIxNTVhNGFkZWUwMWVlY2NmNmNiMyIsImlhdCI6MTU3NjE1MDUwNH0.B2rf73Sef1XyLA-m7YS-7Nph_iZU53hujyuL3x2fdSE
+
+{
+"title": "loginOtsikko", "author": "kirjoittaja", "url": "jotakin", "likes": "10", "userId": "5df126ca2111000fa02f3bff"
+}
